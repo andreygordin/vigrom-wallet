@@ -26,6 +26,7 @@ make init
 
 ```
 POST http://localhost:24891/wallets/241/transactions
+Content-Type: application/json
 
 {
   "transactionType": "debit",
